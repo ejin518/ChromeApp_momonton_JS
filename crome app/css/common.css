@@ -1,0 +1,48 @@
+/* Common **********************************************************************/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url('https://fonts.googleapis.com/css?family=Exo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url(//cdn.jsdelivr.net/nanumsquare/1.0/nanumsquare.css);
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+
+
+/* Common **********************************************************************/ 
+html,body {width:100%;  }
+html {/*overflow-y:scroll;*/ overflow-x:hidden; box-sizing:border-box;}
+*, *:before, *:after{box-sizing:inherit;}
+*{
+-webkit-text-size-adjust:none;
+-webkit-text-size-adjust - auto | none | N% (default auto)
+}
+body {word-wrap:break-word; word-break:keep-all; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0; padding:0;}
+fieldset,img {border:0px none;  vertical-align:top; -ms-interpolation-mode: bicubic;}
+dl,ul,ol,menu,li {list-style:none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content:''; content:none;}
+button {border:0 none; background-color:transparent; cursor:pointer;}
+body { background:#fff;}
+body,th,td,input,select,textarea,button {font-size:16px; line-height:1.8; font-family: 'NanumSquare'; color:#7d7d7d;} 
+
+a:link,a:active,a:visited{color:#7d7d7d; text-decoration:none; border:0px;}
+a:hover,a:focus{color:#333; text-decoration:none}
+
+table {border-collapse:collapse; border-spacing:0;}
+address,caption,cite,code,dfn,em,var {font-style:normal; font-weight:normal;}
+summary, caption, legend{width:0; height:0; font-size: ; line-height: ; overflow: hidden; visibility: hidden; border: none; position:absolute; left:-1000em;}
+caption {position:static;}
+/* label hidden 처리 */
+.invisible{overflow:hidden; visibility:hidden; width:0; height:0; font-size:0; line-height:0; position:absolute;}
+label.invisible{*position:Absolute;}
+
+::-moz-selection { color:#fff; background:#ff0000; }
+::selection { color:#fff; background:#ff0000; }
+
+/* common */
+.clfix:after {content: "."; display: block; height:0px; clear: both; visibility: hidden;}
+.clfix {display:inline-block;}
+.clfix {display:block;}
+* html .clfix {height:1%;} /* Hides from IE-mac */
+.clfix {zoom:1;} /*for IE 5.5-7*/
+.list {border-top:2px solid #1c1815; border-bottom:1px solid #1c1815;}
+
+.w600{width:600px; border:1px solid red;}
